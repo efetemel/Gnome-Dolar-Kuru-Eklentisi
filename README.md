@@ -1,6 +1,6 @@
 # Gnome Dolar Kuru Eklentisi
 ```
-Eklentinin çalıştığı versiyonlar (38, 40, 41 ve üstü)
+Eklentinin çalıştığı versiyonlar (38, 39, 40, 41 ve üstü)
 ```
 
 # Nasıl yüklenir
