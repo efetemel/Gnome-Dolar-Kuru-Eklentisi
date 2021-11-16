@@ -1,6 +1,6 @@
 # Gnome Dolar Kuru Eklentisi
 ```
-Extension to Gnome-Shell in versions (38, 40, 41 or >), for conversion dollar USD in real BRL.
+Eklentinin çalıştığı versiyonlar (38, 40, 41 ve üstü)
 ```
 
 # Licence
@@ -20,9 +20,9 @@ SPDX-License-Identifier: GPL-2.0-or-later
 ```
 
 
-# How to install
+# Nasıl yüklenir
 ```
-cd /tmp && git clone https://github.com/MichaelDeMattos/dollar-dotpyc.com.git && mv dollar-dotpyc.com dollar@dotpyc.com && cp -av dollar@dotpyc.com ~/.local/share/gnome-shell/extensions/ && gnome-shell-extension-tool --enable-extension dollar@dotpyc.com && rm -rf dollar@dotpyc.com
+cd /tmp && git clone https://github.com/efetemel/Gnome-Dolar-Kuru-Eklentisi.git && mv dollar-dotpyc.com dollar@dotpyc.com && cp -av dollar@dotpyc.com ~/.local/share/gnome-shell/extensions/ && gnome-shell-extension-tool --enable-extension dollar@dotpyc.com && rm -rf dollar@dotpyc.com
 ```
 To restart GNOME Shell in X11, pressing Alt+F2 to open the Run Dialog and enter restart (or just r).
 
