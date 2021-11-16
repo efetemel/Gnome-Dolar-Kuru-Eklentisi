@@ -1,4 +1,4 @@
-# dollar-dotpyc.com
+# Gnome Dolar Kuru Eklentisi
 ```
 Extension to Gnome-Shell in versions (38, 40, 41 or >), for conversion dollar USD in real BRL.
 ```
