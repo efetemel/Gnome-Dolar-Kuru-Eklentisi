@@ -5,7 +5,7 @@ Eklentinin çalıştığı versiyonlar (38, 40, 41 ve üstü)
 
 # Nasıl yüklenir
 ```
-cd /tmp && git clone https://github.com/efetemel/Gnome-Dolar-Kuru-Eklentisi.git && mv dollar-dotpyc.com dollar@dotpyc.com && cp -av dollar@dotpyc.com ~/.local/share/gnome-shell/extensions/ && gnome-shell-extension-tool --enable-extension dollar@dotpyc.com && rm -rf dollar@dotpyc.com
+cd /tmp && git clone https://github.com/efetemel/Gnome-Dolar-Kuru-Eklentisi.git && mv Gnome-Dolar-Kuru-Eklentisi dollar@efetemel && cp -av dollar@efetemel ~/.local/share/gnome-shell/extensions/ && gnome-shell-extension-tool --enable-extension dollar@efetemel && rm -rf dollar@efetemel
 ```
 Yükledikten sonra Logout atıp tekrar girerseniz çalışacaktır.
 
