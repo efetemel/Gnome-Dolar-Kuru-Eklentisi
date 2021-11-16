@@ -78,7 +78,7 @@ function load_json_async(){
 
     let message = Soup.form_request_new_from_hash(
         'GET', 
-        "http://economia.awesomeapi.com.br/json/last/USD-BRL", 
+        "http://economia.awesomeapi.com.br/json/last/USD-TRY", 
         {});
     
     _httpSession.queue_message(message, () => {
@@ -94,12 +94,12 @@ function load_json_async(){
             }
 
             let jp = JSON.parse(message.response_body.data);
-            _dollarQuatation = jp["USDBRL"]["bid"];
+            _dollarQuatation = jp["USDTRY"]["bid"];
             _dollarQuatation = _dollarQuatation.split(".");
             _dollarQuatation = _dollarQuatation[0] + "," + _dollarQuatation[1].substring(0,2);
    
             panelButtonText = new St.Label({
-                text : "(USD: 1,00) = (BRL: " + _dollarQuatation + ")",
+                text : "1 Dolar "+_dollarQuatation+" Türk Lirası",
                 y_align: Clutter.ActorAlign.CENTER,
             });
 
