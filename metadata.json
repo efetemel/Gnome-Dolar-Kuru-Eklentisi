@@ -1,8 +1,8 @@
 {
-  "uuid": "dollar@dotpyc.com",
+  "uuid": "dollar@efetemel",
   "name": "Dollar",
-  "description": "Cotações do (USD Dólar Americano) convertivo para (BRL Real Brasileiro).\nAs atualizações são recebidas a cada 30 segundos e utiliza como base informações disponiblizadas pela API AwesomeAPI, que pode ser consultada diretamente acessando o endereço eletronico https://docs.awesomeapi.com.br.",
+  "description": "Gnome da dolar kurunu gösteren bir eklenti",
   "version": 1.2,
   "shell-version": ["3.38", "40", "41", "41.1"],
-  "url": "https://github.com/michaeldemattos/dollar-dotpyc.com"
+  "url": "https://github.com/efetemel/Gnome-Dolar-Kuru-Eklentisi"
 }
